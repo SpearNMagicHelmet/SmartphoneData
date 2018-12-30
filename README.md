@@ -1,10 +1,10 @@
-#SmartphoneData
-##DataScience Course Final
+# SmartphoneData
+## DataScience Course Final
 
-###Smartphone Data Tidying Homework
-###Data Science Specialisation
+### Smartphone Data Tidying Homework
+### Data Science Specialisation
 ### Author:  Simone Kusz
-###Date:    23 December, 2018
+### Date:    23 December, 2018
 
  Reads the data from the Human Activity Recognition Using Smartphones Data Set
  and then creates and provides a tidy data set
@@ -31,7 +31,7 @@ The script is commented, and performs the following process:
 	this has also created the directory "UCI HAR Datasest" with a series of .txt files containing the data
 
 
-##1. Merge the training and the test sets to create one data set.
+## 1. Merge the training and the test sets to create one data set.
 	
 	 set up merged directories
 	 merge files and write them to merged directories
@@ -42,7 +42,7 @@ The script is commented, and performs the following process:
 	 *y* gives the activity number for the measurement
 	
 	
-##2. Extract only the measurements on the mean and standard deviation for each measurement.
+## 2. Extract only the measurements on the mean and standard deviation for each measurement.
 	
 	 Translation:  If you take one row from each of the subject, y and X files,
 	 this gives you a record of one subject (subject), one activity (y), 
@@ -63,19 +63,19 @@ The script is commented, and performs the following process:
 	 write this data subset to file
 
 	
-##3. Change activity names to something more descriptive
+## 3. Change activity names to something more descriptive
 	 
 	 add these values to the "y" table
 	 write back to the merged y datafile
 
   
-##4. Label the data set with descriptive variable names.
+## 4. Label the data set with descriptive variable names.
 	
 	 step one: change the "f" and the "t" at the beginning to "Time" and "Freq"
 	 step two: Add spaces after Body, Gravity, Gyro, Acc, Jerk, Mag
 	 step three: Convert mean(), std() etc to more readable names
 
-##5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+## 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 	
 	 Step one:  create directory
 	 Step two: merge Subject ID and Activity Name onto data table
